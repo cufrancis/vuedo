@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
             $this->call(RolesSeeder::class);
             $this->call(UsersSeeder::class);
             $this->call(PostsSeeder::class);
-            $this->call(PostsMediaSeeder::class);
+            // $this->call(PostsMediaSeeder::class);
             $this->call(CategoriesSeeder::class);
 
             DB::statement('SET FOREIGN_KEY_CHECKS=1;');
